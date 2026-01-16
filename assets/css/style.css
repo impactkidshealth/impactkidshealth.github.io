@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-    color: #fd8624;
+    color: #fec391;
 }
 
 /* ===== Header / Navigation ===== */
@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #033d6f; /* dark nav bar */
+    background-color: #b9352e; /* dark nav bar */
     padding: 10px 40px;
     position: sticky;
     top: 0;

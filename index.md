@@ -1,12 +1,7 @@
 ---
-layout: page
-title: IMPACT Consortium
-permalink: /
+layout: home
+title: Home
 ---
-
-<div class="container" style="max-width:700px;margin:auto;background:#ffffff;padding:40px;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,0.1);text-align:center;">
-
-<img src="/assets/images/IMPACT%20logo%202026.png" alt="IMPACT consortium logo" style="max-width:200px;margin-bottom:20px;">
 
 # IMPACT Consortium
 
@@ -18,4 +13,4 @@ The IMPACT consortium unites six international institutions to harmonize immune 
 
 Please check back soon.
 
-</div>
+![Impact Logo](/assets/images/IMPACT%20logo%202026.png)

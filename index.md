@@ -1,14 +1,53 @@
----
-layout: default
-title: Home
----
-
-# Welcome to Impact Kids Health
-
-Immune & Microbiota Monitoring Partnership for Cellular Therapy
-
-Our website is currently under development.
-
-The IMPACT consortium unites six international institutions to harmonize immune monitoring, microbiota analysis, and clinical insights to improve outcomes in pediatric cellular therapy.
-
-Please check back soon.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IMPACT Consortium | Immune & Microbiota Monitoring</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fa;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 32px;
+      color: #003366;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .tagline {
+      color: #0055a5;
+      font-weight: bold;
+    }
+    img.logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="IMPACT logo 2026.png" alt="IMPACT consortium logo" class="logo">
+    <h1>IMPACT Consortium</h1>
+    <p class="tagline">Immune & Microbiota Monitoring Partnership for Cellular Therapy</p>
+    <p>Our website is currently under development.</p>
+    <p>The IMPACT consortium unites six international institutions to harmonize immune monitoring, microbiota analysis, and clinical insights to improve outcomes in pediatric cellular therapy.</p>
+    <p>Please check back soon.</p>
+  </div>
+</body>
+</html>
+<img width="451" height="688" alt="image" src="https://github.com/user-attachments/assets/a7e362e6-d439-432b-ad2f-0332e04ef69a" />

@@ -1,3 +1,16 @@
-remote_theme: pages-themes/midnight@v0.2.0
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 title: Impact Kids Health
 description: Collaborative health impact website
+logo: /IMPACT%20logo%202026.png
+navigation:
+  - name: IMPACT
+    link: /impact/
+  - name: Collaborations
+    link: /collaborations/
+  - name: Projects
+    link: /projects/
+  - name: Output
+    link: /output/
+  - name: News
+    link: /news/
+color-scheme: dark

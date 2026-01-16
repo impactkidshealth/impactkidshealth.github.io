@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #e4eef7; /* light background */
+    background-color: #ffefe3; /* light background */
     color: #033a69;
 }
 
@@ -28,7 +28,7 @@ header {
 }
 
 header img {
-    height: 50px;
+    height: 200px;
 }
 
 nav ul {
@@ -44,30 +44,6 @@ nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
     transition: color 0.3s;
-}
-
-/* ===== Hero Section ===== */
-.hero {
-    background-color: #f8f9fa; /* light background behind logo */
-    padding: 120px 20px;        /* top/bottom space */
-    text-align: center;         /* center logo and text */
-    position: relative;
-    color: #033a69;             /* text color */
-}
-
-.hero-logo {
-    max-width: 300px;           /* adjust size of logo */
-    margin-bottom: 20px;        /* space below logo */
-}
-
-.hero-content h1 {
-    font-size: 2.5em;
-    margin: 0 0 15px 0;
-}
-
-.hero-content p {
-    font-size: 1.2em;
-    margin: 0;
 }
 
 /* ===== Page Content ===== */

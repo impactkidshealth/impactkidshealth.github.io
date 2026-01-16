@@ -23,8 +23,5 @@ navigation:
   - title: News
     url: /news/
 
-# Hero / homepage background
-hero_image: /assets/images/hero-background.jpg  # your main homepage background
-
 # Custom CSS (for extra styling if needed)
 custom_css: /assets/css/custom.css

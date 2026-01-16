@@ -1,16 +1,35 @@
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+# Site settings
 title: Impact Kids Health
 description: Collaborative health impact website
-logo: /IMPACT%20logo%202026.png
+baseurl: ""      # leave blank unless in a subfolder
+url: "https://impactkidshealth.github.io"
+
+# Theme
+theme: beautiful-jekyll
+
+# Logo (appears top left)
+logo: /assets/images/IMPACT%20logo%202026.png
+
+# Navigation menu
 navigation:
-  - name: IMPACT
-    link: /impact/
-  - name: Collaborations
-    link: /collaborations/
-  - name: Projects
-    link: /projects/
-  - name: Output
-    link: /output/
-  - name: News
-    link: /news/
-color-scheme: dark
+  - title: IMPACT
+    url: /impact/
+  - title: Collaborations
+    url: /collaborations/
+  - title: Projects
+    url: /projects/
+  - title: Output
+    url: /output/
+  - title: News
+    url: /news/
+
+# Hero / homepage background
+hero_image: /assets/images/hero-background.jpg  # your main homepage background
+
+# Optional contact/social links
+email: info@impactkidshealth.org
+github: https://github.com/impactkidshealth
+twitter: https://twitter.com/impactkidshealth
+
+# Custom CSS (for extra styling if needed)
+custom_css: /assets/css/custom.css

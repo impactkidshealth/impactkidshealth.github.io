@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: ##e4eef7; /* light background */
+    background-color: #e4eef7; /* light background */
     color: #033a69;
 }
 
@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-    color: #00aaff;
+    color: #fd8624;
 }
 
 /* ===== Header / Navigation ===== */
@@ -48,7 +48,7 @@ nav ul li a {
 
 /* ===== Hero Section ===== */
 .hero {
-    background-image: url('../images/background.jpg'); /* optional */
+    background-image: url(impactkidshealth.github.io/assets/images/IMPACT logo 2026.png); /* optional */
     background-size: cover;
     background-position: center;
     padding: 120px 20px;
@@ -92,8 +92,8 @@ nav ul li a {
 
 /* ===== Footer ===== */
 footer {
-    background-color: #1a1a1a;
-    color: #aaa;
+    background-color: #033a69;
+    color: #fff;
     text-align: center;
     padding: 20px;
     margin-top: 50px;

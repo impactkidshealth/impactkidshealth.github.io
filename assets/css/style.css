@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #969696; /* dark nav bar */
+    background-color: #033d6f; /* dark nav bar */
     padding: 10px 40px;
     position: sticky;
     top: 0;
@@ -58,7 +58,7 @@ nav ul li a {
 
 /* ===== Footer ===== */
 footer {
-    background-color: #033a69;
+    background-color: #b9352e;
     color: #fff;
     text-align: center;
     padding: 20px;

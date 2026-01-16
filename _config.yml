@@ -26,10 +26,5 @@ navigation:
 # Hero / homepage background
 hero_image: /assets/images/hero-background.jpg  # your main homepage background
 
-# Optional contact/social links
-email: info@impactkidshealth.org
-github: https://github.com/impactkidshealth
-twitter: https://twitter.com/impactkidshealth
-
 # Custom CSS (for extra styling if needed)
 custom_css: /assets/css/custom.css

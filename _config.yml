@@ -5,7 +5,7 @@ baseurl: ""      # leave blank unless in a subfolder
 url: "https://impactkidshealth.github.io"
 
 # Theme
-theme: beautiful-jekyll
+theme: minima
 
 # Logo (appears top left)
 logo: /assets/images/IMPACT%20logo%202026.png

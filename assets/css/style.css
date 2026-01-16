@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa; /* light background */
-    color: #333;
+    background-color: ##e4eef7; /* light background */
+    color: #033a69;
 }
 
 a {
@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1a1a1a; /* dark nav bar */
+    background-color: #969696; /* dark nav bar */
     padding: 10px 40px;
     position: sticky;
     top: 0;

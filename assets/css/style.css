@@ -49,14 +49,14 @@ nav ul li a {
 /* ===== Hero Section ===== */
 .hero {
     background-color: #e4eef7; /* light background behind logo */
-    padding: 100px 20px;        /* top/bottom space */
+    padding: 80px 20px;        /* top/bottom space */
     text-align: center;         /* center logo and text */
     position: relative;
     color: #000;             /* text color */
 }
 
 .hero-logo {
-    max-width: 600px;           /* adjust size of logo */
+    max-width: 400px;           /* adjust size of logo */
     margin-bottom: 20px;        /* space below logo */
 }
 

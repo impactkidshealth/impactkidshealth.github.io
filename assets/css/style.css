@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 .hero-logo {
-    max-width: 300px;           /* adjust size of logo */
+    max-width: 600px;           /* adjust size of logo */
     margin-bottom: 20px;        /* space below logo */
 }
 
@@ -69,6 +69,7 @@ nav ul li a {
     font-size: 1.5em;
     margin: 0;
 }
+
 /* ===== Page Content ===== */
 .container {
     max-width: 900px;

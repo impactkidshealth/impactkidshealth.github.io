@@ -20,38 +20,25 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #032a4d; /* dark nav bar */
-    padding: 10px 40px;
+    background-color: #032a4d;
+    padding: 12px 40px;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li a {
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: color 0.3s;
-}
-
-/* Logo + text stacked vertically */
+/* Logo + text block */
 .logo-block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-decoration: none;
 }
 
 /* Logo image */
 .logo-block img {
-    height: 50px;
+    height: 60px;
+    width: auto;
     margin-bottom: 6px;
 }
 
@@ -63,6 +50,25 @@ nav ul li a {
     max-width: 420px;
 }
 
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
 
 /* ===== Hero Section ===== */
 .hero {
@@ -109,11 +115,24 @@ footer {
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
-    nav ul {
+    header {
         flex-direction: column;
-        gap: 10px;
+        align-items: flex-start;
+        padding: 15px 20px;
     }
-    .hero-content h1 {
-        font-size: 2em;
+
+    .logo-block img {
+        height: 50px;
+    }
+
+    .logo-text {
+        font-size: 0.8em;
+        max-width: 100%;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 10px;
     }
 }

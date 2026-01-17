@@ -27,10 +27,6 @@ header {
     z-index: 1000;
 }
 
-header img {
-    height: 100px;
-}
-
 nav ul {
     list-style: none;
     display: flex;
@@ -55,7 +51,7 @@ nav ul li a {
 
 /* Logo image */
 .logo-block img {
-    height: 50px;
+    height: 100px;
     margin-bottom: 6px;
 }
 

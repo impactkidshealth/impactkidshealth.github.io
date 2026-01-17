@@ -127,11 +127,6 @@ footer {
         height: 50px;
     }
 
-    .logo-text {
-        font-size: 0.8em;
-        max-width: 100%;
-    }
-
     nav ul {
         flex-wrap: wrap;
         gap: 15px;

@@ -3,7 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <title>About | IMPACT Consortium</title>
-  <link rel="stylesheet" href="assets/css/style.css?v=3">
+  <style>
+  /* Page-local styling for About page only */
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e4eef7;
+    color: #033a69;
+  }
+
+  a { text-decoration: none; }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #032a4d;
+    padding: 12px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .logo-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-logo {
+    height: 60px;
+    width: auto;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .logo-text {
+    font-size: 0.85em;
+    color: #ffffff;
+    line-height: 1.2;
+    max-width: 900px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  nav ul li a:hover {
+    color: #00aaff;
+  }
+
+  /* Content */
+  .container.content-page {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 40px;
+  }
+
+  h1 { margin-top: 0; }
+  h2 { margin-top: 28px; }
+
+  /* Footer */
+  footer {
+    background-color: #fd8624;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px 20px;
+    }
+
+    nav ul {
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .container.content-page {
+      padding: 0 20px;
+    }
+  }
+</style>
+
 </head>
 <body>
 

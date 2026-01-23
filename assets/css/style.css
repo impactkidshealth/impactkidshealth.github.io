@@ -1,4 +1,4 @@
-body { background-color: #ff00ff !important; }
+body { background-color: #ffffff !important; }
 
 /* ===== Long-form content pages ===== */
 .content-page {
@@ -107,7 +107,7 @@ nav ul li a:hover {
 
 /* ===== Page Content ===== */
 .container {
-    max-width: 1500px;
+    max-width: 900px;
     margin: 50px auto;
     padding: 20px;
     background-color: #ffffff;

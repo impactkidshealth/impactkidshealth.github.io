@@ -130,6 +130,31 @@ li {
   line-height: 1.6;
 }
 
+    /* Subtle background watermark for About page */
+.container.content-page {
+  background-image: url("IMPACT%20logo%202026.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 600px;
+  padding-top: 80px;
+}
+
+/* Make the watermark very faint */
+.container.content-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("IMPACT%20logo%202026.png");
+  background-repeat: no-repeat;
+  background-position: center 120px;
+  background-size: 600px;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+    .container.content-page {
+  position: relative;
+}
 </style>
 
 </head>

@@ -140,3 +140,7 @@ footer {
     box-shadow: none;
     background-color: transparent;
 }
+
+.content-page {
+    outline: 5px solid red !important;
+}

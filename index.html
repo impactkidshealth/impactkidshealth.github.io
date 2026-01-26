@@ -4,6 +4,93 @@
   <meta charset="UTF-8">
   <title>IMPACT Consortium | Home</title>
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+  /* ===== Header override (ISCT-style) ===== */
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #032a4d;
+    padding: 18px 40px;   /* thicker ribbon */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  /* Make logo + text sit horizontally */
+  .logo-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+  }
+
+  /* Bigger header logo */
+  .header-logo {
+    height: 56px;
+    width: auto;
+    display: block;
+  }
+
+  /* Replace long unreadable line with clean two-line label */
+  .logo-text {
+    color: #ffffff;
+    line-height: 1.15;
+    max-width: 520px;
+    font-size: 0.95em;
+    font-weight: 600;
+  }
+
+  /* Make the long expansion smaller and softer (optional, but helps) */
+  .logo-text .subline {
+    display: block;
+    font-size: 0.80em;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-top: 2px;
+  }
+
+  /* Navigation stays as is, but center aligns vertically */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  nav ul li a:hover {
+    color: #00aaff;
+  }
+
+  @media (max-width: 900px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 16px 20px;
+    }
+
+    .logo-text {
+      max-width: 100%;
+    }
+
+    nav ul {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+</style>
+
 </head>
 <body>
 
@@ -13,9 +100,11 @@
          alt="IMPACT Consortium Logo"
          class="header-logo">
 
-    <div class="logo-text">
-      IMPACT Consortium | Immune & Microbiota Monitoring Partnership for Cellular Therapy in Children
-    </div>
+   <div class="logo-text">
+  IMPACT Consortium
+  <span class="subline">Immune &amp; Microbiota Monitoring Partnership for Cellular Therapy in Children</span>
+</div>
+
   </a>
 
   <nav>
@@ -42,7 +131,7 @@
 </section>
 
 <div class="container">
-  <p>Our website is currently under development.</p>
+  <p>Our website is currently under development. TESTING</p>
   <p>Please check back soon.</p>
 </div>
 

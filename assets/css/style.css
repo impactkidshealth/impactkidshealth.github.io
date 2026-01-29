@@ -275,26 +275,28 @@ footer {
   margin-top: 30px;
 }
 
+/* Each card aligns elements consistently using flexbox */
 .center-card {
   text-align: center;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .center-logo {
   max-width: 180px;
   height: auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px; /* base spacing for all logos */
 }
 
-/* MSK logo needs extra padding to align visually */
-.msk-logo {
-  padding-top: 20px;
-}
-
+/* MSK logo adjustments (logo is very narrow + sits too high) */
 .msk-logo {
   margin-bottom: 40px;
 }
 
+/* OPBG logo adjustments (logo sits visually low) */
 .opbg-logo {
-  margin-bottom: 5px;   /* small spacing because the logo is tall */
+  margin-bottom: 10px;
 }

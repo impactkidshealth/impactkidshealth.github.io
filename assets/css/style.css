@@ -112,9 +112,8 @@ nav ul li a:hover {
   font-size: 1.2em;
   font-weight: 500;
   max-width: 900px;
-   margin-top: 20px;
+   margin-top: 0px;
   margin-bottom: 25px;
-   font-weight: 550;
 }
 
 /* Typography */

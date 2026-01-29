@@ -107,7 +107,14 @@ nav ul li a:hover {
   margin-right: auto;
   text-align: center;
 }
- 
+
+.mission-text {
+  font-size: 1.2em;
+  font-weight: 500;
+  max-width: 900px;
+  margin: 0 auto 25px;
+}
+
 /* Typography */
 
 h1 {

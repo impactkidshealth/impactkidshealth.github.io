@@ -285,3 +285,8 @@ footer {
   height: auto;
   margin-bottom: 15px;
 }
+
+/* MSK logo needs extra padding to align visually */
+.msk-logo {
+  padding-top: 20px;
+}

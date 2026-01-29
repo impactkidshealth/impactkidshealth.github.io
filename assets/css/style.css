@@ -160,6 +160,7 @@ li {
    =========================== */
 
 .container.content-page {
+  position: relative;   /* <-- REQUIRED for watermark to display */
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 600px;

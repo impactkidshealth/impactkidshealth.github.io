@@ -190,3 +190,7 @@ footer {
     padding: 0 20px;
   }
 }
+ /* Remove watermark on pages that request it */
+.no-watermark::before {
+  display: none !important;
+}

@@ -290,3 +290,11 @@ footer {
 .msk-logo {
   padding-top: 20px;
 }
+
+.msk-logo {
+  margin-bottom: 25px;
+}
+
+.opbg-logo {
+  margin-bottom: 5px;   /* small spacing because the logo is tall */
+}

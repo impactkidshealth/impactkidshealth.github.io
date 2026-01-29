@@ -138,6 +138,15 @@ li {
   line-height: 1.6;
 }
 
+.highlights {
+  list-style-position: inside;
+  padding: 0;
+  text-align: center;
+}
+
+.highlights li {
+  text-align: center;
+}
 
 /* ===========================
    WATERMARK (content pages only)

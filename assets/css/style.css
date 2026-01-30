@@ -291,12 +291,13 @@ footer {
   margin-bottom: 20px; /* base spacing for all logos */
 }
 
-/* MSK logo adjustments (logo is very narrow + sits too high) */
-.msk-logo {
-  margin-bottom: 40px;
+/* Force MSK logo to sit lower for alignment */
+img.center-logo.msk-logo {
+  margin-bottom: 70px !important;
 }
 
-/* OPBG logo adjustments (logo sits visually low) */
-.opbg-logo {
-  margin-bottom: 10px;
+
+img.center-logo.opbg-logo {
+  margin-bottom: 20px !important;
 }
+

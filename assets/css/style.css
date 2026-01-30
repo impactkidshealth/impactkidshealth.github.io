@@ -301,3 +301,10 @@ img.center-logo.opbg-logo {
   margin-bottom: 50px !important;
 }
 
+.logo-wrapper {
+  height: 140px; /* we can tune this */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}

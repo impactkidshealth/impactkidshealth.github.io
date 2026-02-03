@@ -345,3 +345,26 @@ img.center-logo.opbg-logo {
   border-top: 1px solid rgba(0,0,0,0.1);
   padding-top: 40px;
 }
+
+/* —— Enhancements for better hierarchy —— */
+
+.project-block h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.project-block {
+  margin-bottom: 22px;
+}
+
+.project-block p {
+  max-width: 750px;
+  line-height: 1.45;
+}
+
+.project-section + .project-section {
+  border-top: 1px solid rgba(0,0,0,0.15);
+  padding-top: 35px;
+  margin-top: 35px;
+}

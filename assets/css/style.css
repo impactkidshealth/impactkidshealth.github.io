@@ -308,3 +308,40 @@ img.center-logo.opbg-logo {
   justify-content: center;
   margin-bottom: 20px;
 }
+
+/* ===========================
+   PROJECTS PAGE
+   =========================== */
+
+.project-section {
+  margin-bottom: 50px;
+}
+
+.project-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.focus-block, .project-block {
+  margin-bottom: 25px;
+  padding-left: 10px;
+}
+
+.focus-block h3,
+.project-block h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.focus-block p,
+.project-block p {
+  margin: 0 0 5px 0;
+  max-width: 750px;
+  line-height: 1.45;
+}
+
+.project-section + .project-section {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  padding-top: 40px;
+}

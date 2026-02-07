@@ -368,3 +368,46 @@ img.center-logo.opbg-logo {
   padding-top: 35px;
   margin-top: 35px;
 }
+
+/* ===========================
+   Mobile Adjustments
+   =========================== */
+@media (max-width: 768px) {
+
+  /* Page titles */
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  /* Section titles (h2) */
+  h2 {
+    font-size: 1.25rem;
+    margin-top: 20px;
+  }
+
+  /* Focus and project block titles */
+  h3, h4 {
+    font-size: 1.05rem;
+  }
+
+  /* Body text */
+  p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  /* Center logos (About, Centers page) */
+  .center-logo {
+    max-width: 120px;
+  }
+
+  /* Header logo */
+  .header-logo {
+    max-width: 140px;
+  }
+
+  /* Optional: reduce global margins a bit */
+  .content-page {
+    padding: 15px;
+  }
+}

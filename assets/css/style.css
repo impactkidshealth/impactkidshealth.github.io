@@ -411,3 +411,45 @@ img.center-logo.opbg-logo {
     padding: 15px;
   }
 }
+
+/* ===========================
+   MOBILE OPTIMIZATION
+   =========================== */
+@media (max-width: 600px) {
+
+  /* Header logo gets smaller */
+  .header-logo {
+    width: 55px;
+    margin-right: 8px;
+  }
+
+  /* Title text */
+  .logo-text {
+    font-size: 1.1rem;
+  }
+
+  .logo-text .subline {
+    font-size: 0.75rem;
+  }
+
+  /* Navigation links */
+  nav ul li a {
+    font-size: 0.9rem;
+    padding: 6px 8px;
+  }
+
+  /* Big hero logo on homepage */
+  .hero-logo {
+    max-width: 220px !important;
+  }
+
+  /* H1 everywhere */
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  /* Reduce page padding */
+  .container {
+    padding: 20px 15px;
+  }
+}

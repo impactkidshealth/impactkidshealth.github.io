@@ -369,9 +369,13 @@ img.center-logo.opbg-logo {
   margin-top: 35px;
 }
 
-/* ===========================
-   Mobile Adjustments
-   =========================== */
+/* ======================================================
+   MOBILE RESPONSIVE SYSTEM (Unified & Clean)
+   ====================================================== */
+
+/* ------------------------------------------------------
+   1) Large phones + tablets  (max-width: 768px)
+   ------------------------------------------------------ */
 @media (max-width: 768px) {
 
   /* Page titles */
@@ -379,13 +383,11 @@ img.center-logo.opbg-logo {
     font-size: 1.6rem;
   }
 
-  /* Section titles (h2) */
   h2 {
     font-size: 1.25rem;
     margin-top: 20px;
   }
 
-  /* Focus and project block titles */
   h3, h4 {
     font-size: 1.05rem;
   }
@@ -396,9 +398,9 @@ img.center-logo.opbg-logo {
     line-height: 1.4;
   }
 
-  /* Center logos (About, Centers page) */
+  /* Center logos */
   .center-logo {
-    max-width: 120px;
+    max-width: 130px;
   }
 
   /* Header logo */
@@ -406,50 +408,124 @@ img.center-logo.opbg-logo {
     max-width: 140px;
   }
 
-  /* Optional: reduce global margins a bit */
+  /* Reduce padding */
   .content-page {
     padding: 15px;
   }
 }
 
-/* ===========================
-   MOBILE OPTIMIZATION
-   =========================== */
+
+/* ------------------------------------------------------
+   2) Mid-size phones (max-width: 600px)
+   ------------------------------------------------------ */
 @media (max-width: 600px) {
 
-  /* Header logo gets smaller */
+  /* Header adjustments */
   .header-logo {
     width: 55px;
     margin-right: 8px;
   }
 
-  /* Title text */
   .logo-text {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
   }
 
   .logo-text .subline {
     font-size: 0.75rem;
   }
 
-  /* Navigation links */
   nav ul li a {
     font-size: 0.9rem;
     padding: 6px 8px;
   }
 
-  /* Big hero logo on homepage */
+  /* Hero area */
   .hero-logo {
-    max-width: 220px !important;
+    max-width: 220px;
   }
 
-  /* H1 everywhere */
+  /* Page headings */
   h1 {
     font-size: 1.6rem;
   }
 
-  /* Reduce page padding */
+  /* Global padding */
   .container {
     padding: 20px 15px;
+  }
+}
+
+
+/* ------------------------------------------------------
+   3) Small phones (max-width: 480px)
+   ------------------------------------------------------ */
+@media (max-width: 480px) {
+
+  /* Header */
+  header {
+    padding: 10px 12px;
+  }
+
+  .header-logo {
+    height: 48px; 
+  }
+
+  .logo-text {
+    font-size: 0.9rem;
+    max-width: 260px;
+  }
+
+  nav ul {
+    gap: 12px;
+    font-size: 0.9rem;
+  }
+
+  /* Hero */
+  .hero-logo {
+    max-width: 200px;
+    margin-top: 8px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.1rem;
+  }
+
+  /* Page H1 */
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Content */
+  .container.content-page {
+    padding: 0 18px;
+  }
+
+  /* Watermark */
+  .container.content-page::before {
+    background-size: 320px;
+    background-position: center 70px;
+  }
+
+  /* Centers page */
+  .center-logo {
+    max-width: 120px;
+  }
+
+  .logo-wrapper {
+    height: 100px;
+  }
+
+  /* Project page text hierarchy */
+  .project-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .focus-block h3,
+  .project-block h4 {
+    font-size: 1rem;
   }
 }

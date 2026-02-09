@@ -392,7 +392,6 @@ img.center-logo.opbg-logo {
 .news-placeholder {
   border-radius: 18px;
   padding: 36px 18px 30px 18px;
-  box-shadow: 0 1.5px 8px rgba(3,58,105,0.06);
   max-width: 100%;
    margin: 0 auto;
 }
@@ -422,7 +421,6 @@ img.center-logo.opbg-logo {
 .pub-card {
   border-radius: 18px;
   padding: 28px 22px 18px 22px;
-  box-shadow: 0 2px 10px rgba(3,58,105,0.08);
 }
 
 .pub-card h2 {

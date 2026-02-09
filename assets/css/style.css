@@ -265,6 +265,10 @@ footer {
   text-align: center;
 }
 
+.mission-item {
+  list-style-type: none;
+}
+
 /* ===========================
    CENTERS PAGE
    =========================== */

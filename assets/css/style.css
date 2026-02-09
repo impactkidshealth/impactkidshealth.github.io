@@ -374,17 +374,17 @@ img.center-logo.opbg-logo {
    =========================== */
 .news-section {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 1100px;
   padding: 40px 0 80px 0;
   text-align: center;
 }
 .news-placeholder {
-  background: #f4f9fd;
-  border: 1.5px solid #b6cbe0;
+  border: 1.5px solid;
   border-radius: 18px;
   padding: 36px 18px 30px 18px;
   box-shadow: 0 1.5px 8px rgba(3,58,105,0.06);
-  color: #033a69;
+  max-width: 100%;
+   margin: 0 auto;
 }
 .news-placeholder h2 {
   margin-top: 0;

@@ -458,3 +458,16 @@ img.center-logo.opbg-logo {
     font-size: 1em;
   }
 }
+
+/* ===========================
+   MOBILE STYLES
+   =========================== */
+@media (max-width: 600px) {
+  .mission-text {
+    font-size: 1.08em;  /* Slightly bigger for mobile! */
+    line-height: 1.6;
+  }
+  .highlights li {
+    font-size: 1em;
+  }
+}

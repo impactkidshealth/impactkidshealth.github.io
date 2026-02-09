@@ -397,3 +397,65 @@ img.center-logo.opbg-logo {
   font-size: 1.08em;
   color: #033a69;
 }
+
+/* ===========================
+   PUBLICATIONS / OUTPUT PAGE
+   =========================== */
+.publications-list {
+  margin: 40px auto 80px auto;
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.pub-card {
+  background: #f4f9fd;
+  border: 1.5px solid #b6cbe0;
+  border-radius: 18px;
+  padding: 28px 22px 18px 22px;
+  box-shadow: 0 2px 10px rgba(3,58,105,0.08);
+}
+
+.pub-card h2 {
+  font-size: 1.15em;
+  margin: 0 0 14px 0;
+  color: #033a69;
+}
+
+.pub-card h2 a {
+  color: #033a69;
+  text-decoration: none;
+  border-bottom: 1.5px dotted #fd8624;
+  transition: border-bottom 0.2s;
+}
+
+.pub-card h2 a:hover {
+  border-bottom: 2.5px solid #fd8624;
+  color: #fd8624;
+}
+
+.pub-summary {
+  margin-bottom: 16px;
+  font-size: 1em;
+  color: #0e3559;
+}
+
+.pub-meta a {
+  font-size: 0.96em;
+  color: #045296;
+  text-decoration: underline dotted #fd8624;
+}
+
+@media (max-width: 600px) {
+  .publications-list {
+    padding: 0 8px;
+    gap: 18px;
+  }
+  .pub-card {
+    padding: 16px 8px 12px 8px;
+  }
+  .pub-card h2 {
+    font-size: 1em;
+  }
+}

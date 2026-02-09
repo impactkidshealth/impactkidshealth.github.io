@@ -152,6 +152,12 @@ li {
   text-align: center;
 }
 
+.highlights .mission-item {
+  list-style-type: none !important;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .highlights li {
   text-align: center;
 }

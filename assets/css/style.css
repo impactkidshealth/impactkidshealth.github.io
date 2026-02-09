@@ -369,3 +369,31 @@ img.center-logo.opbg-logo {
   margin-top: 35px;
 }
 
+/* ===========================
+   NEWS PAGE PLACEHOLDER
+   =========================== */
+.news-section {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 40px 0 80px 0;
+  text-align: center;
+}
+.news-placeholder {
+  background: #f4f9fd;
+  border: 1.5px solid #b6cbe0;
+  border-radius: 18px;
+  padding: 36px 18px 30px 18px;
+  box-shadow: 0 1.5px 8px rgba(3,58,105,0.06);
+  color: #033a69;
+}
+.news-placeholder h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #033a69;
+}
+.news-placeholder p {
+  margin: 14px 0;
+  font-size: 1.08em;
+  color: #033a69;
+}

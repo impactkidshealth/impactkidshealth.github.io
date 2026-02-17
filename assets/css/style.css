@@ -418,6 +418,12 @@ img.center-logo.opbg-logo {
   gap: 32px;
 }
 
+/* Justify text for publications section */
+.pub-card p {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .pub-card {
   border-radius: 18px;
   padding: 28px 22px 18px 22px;

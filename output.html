@@ -150,5 +150,21 @@
   <a href="cookies.html">Cookie Policy</a>
 </footer>
 
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const yearSections = document.querySelectorAll(".pub-year");
+
+    yearSections.forEach((section) => {
+      section.addEventListener("toggle", () => {
+        if (section.open) {
+          yearSections.forEach((other) => {
+            if (other !== section) other.removeAttribute("open");
+          });
+        }
+      });
+    });
+  });
+</script>
+  
 </body>
 </html>

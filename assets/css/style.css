@@ -258,11 +258,13 @@ footer {
   background-image: url("/IMPACT%20logo%202026.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 700px;
+  background-size: 55%;
 
-  opacity: 0.08;
+  opacity: 0.045;
 
   pointer-events: none;
+
+   z-index: 0;
 }
 
 /* Keeps text above watermark */

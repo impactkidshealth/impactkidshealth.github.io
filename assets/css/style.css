@@ -258,9 +258,9 @@ footer {
   background-image: url("/IMPACT%20logo%202026.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 55%;
+  background-size: 500px;
 
-  opacity: 0.045;
+  opacity: 0.05;
 
   pointer-events: none;
 

@@ -236,32 +236,79 @@ footer {
    =========================== */
 
 .hero {
+  position: relative;
+  overflow: hidden;
+
   text-align: center;
-  padding: 20px 20px;
-  background-color: #e4eef7;
+
+  padding: 120px 20px 120px 20px;
+
+  background: linear-gradient(to bottom, #0a2d52, #123d6b);
+
+  color: #ffffff;
 }
 
+/* Watermark logo */
+.hero::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background-image: url("/IMPACT%20logo%202026.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 700px;
+
+  opacity: 0.08;
+
+  pointer-events: none;
+}
+
+/* Keeps text above watermark */
 .hero-content {
-  text-align: center;
+  position: relative;
+  z-index: 1;
+
+  max-width: 950px;
+  margin: 0 auto;
 }
 
-.hero-logo {
-  max-width: 220px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
+/* Main title */
 .hero-content h1 {
-  font-size: 2.5em;
+  font-size: 4rem;
+  font-weight: 700;
+
   margin-top: 0;
-  margin-bottom: 6px; 
+  margin-bottom: 20px;
+
+  letter-spacing: -1px;
 }
 
+/* Tagline */
 .hero-content h2 {
-  font-size: 1.6em;
-  margin-top: 5px;
-  margin-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+
+  line-height: 1.5;
+
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: #dbe9f6;
+}
+
+/* Supporting paragraph */
+.hero-content p {
+  font-size: 1.15rem;
+
+  line-height: 1.8;
+
+  max-width: 850px;
+
+  margin: 0 auto;
+
+  color: #e8f1f8;
 }
 
 /* Fix H1 centering on watermark pages */

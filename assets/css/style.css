@@ -337,14 +337,7 @@ footer {
    =========================== */
 
 .homepage-intro {
-  background:
-    radial-gradient(
-      circle at top center,
-      #eef4f8 0%,
-      #dde7f1 45%,
-      #cfd9e5 100%
-    );
-  padding: 70px 40px;
+    padding: 70px 40px;
   text-align: center;
 }
 

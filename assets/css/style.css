@@ -326,6 +326,66 @@ footer {
 }
 
 /* ===========================
+   HOMEPAGE INTRO / CARDS
+   =========================== */
+
+.homepage-intro {
+  background: linear-gradient(
+    to bottom,
+    #dbe7f2,
+    #eef4f8
+  );
+  padding: 70px 40px;
+  text-align: center;
+}
+
+/* Card grid layout */
+.feature-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Individual cards */
+.feature-card {
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 18px;
+  padding: 35px 30px;
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(6px);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Card titles */
+.feature-card h3 {
+  font-size: 1.35rem;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #0a2d52;
+}
+
+/* Card text */
+.feature-card p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #334455;
+  margin-bottom: 0;
+}
+
+/* ===========================
    CENTERS PAGE
    =========================== */
 

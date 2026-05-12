@@ -108,6 +108,13 @@ nav ul li a:hover {
   margin: 40px auto;
   padding: 0 40px;
   text-align: center !important;
+   background:
+    radial-gradient(
+      ellipse at bottom center,
+      #eef4f8 0%,
+      #dde7f1 45%,
+      #cfd9e5 100%
+    );
 }
 
 .container.no-watermark p {

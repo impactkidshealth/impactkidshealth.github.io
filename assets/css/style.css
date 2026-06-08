@@ -251,7 +251,7 @@ footer {
      background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.10) 0%, transparent 30%),
     linear-gradient(225deg, rgba(255, 255, 255, 0.07) 0%, transparent 32%),
-    radial-gradient(circle at center, #062342 0%, #123d6b 52%, #1e5f99 100%);
+    radial-gradient(circle at center, #062342 0%, #123d6b 60%, #1e5f99 100%);
 
   color: #ffffff;
 }

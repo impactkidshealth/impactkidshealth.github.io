@@ -355,22 +355,26 @@ footer {
 /* Individual cards */
 .feature-card {
   background:
-    rgba(255, 255, 255, 0.78);
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.88), rgba(247, 251, 255, 0.82));
   border-radius: 18px;
+  border: 1px solid rgba(10, 45, 82, 0.10);
+  border-top: 4px solid #064b7e;
   padding: 28px 24px;
   box-shadow:
-    0 8px 24px rgba(0, 0, 0, 0.08);
+    0 10px 26px rgba(10, 45, 82, 0.11);
   backdrop-filter: blur(6px);
   transition:
     transform 0.2s ease,
-    box-shadow 0.2s ease;
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
 }
 
 /* Hover effect */
 .feature-card:hover {
   transform: translateY(-4px);
+  border-color: rgba(10, 45, 82, 0.18);
   box-shadow:
-    0 12px 30px rgba(0, 0, 0, 0.12);
+    0 14px 34px rgba(10, 45, 82, 0.17);
 }
 
 /* Card titles */

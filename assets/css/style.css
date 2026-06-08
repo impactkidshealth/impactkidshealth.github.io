@@ -388,20 +388,22 @@ footer {
 
 .contact-button {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 12px 26px;
   margin-top: 20px;
-  background-color: #5f7f73;
+  background-color: #0b3a63;
   color: white !important;
   text-decoration: none;
   border-radius: 999px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.02em;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 31, 63, 0.18);
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .contact-button:hover {
-  background-color: #4d6a60;
+  background-color: #14517f;
   transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 31, 63, 0.24);
 }
 
 .contact-button:visited {

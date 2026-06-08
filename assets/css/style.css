@@ -386,6 +386,28 @@ footer {
   margin-bottom: 0;
 }
 
+.contact-button {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-top: 20px;
+  background-color: #5f7f73;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-button:hover {
+  background-color: #4d6a60;
+  transform: translateY(-2px);
+}
+
+.contact-button:visited {
+  color: white !important;
+}
+
 /* ===========================
    CENTERS PAGE
    =========================== */

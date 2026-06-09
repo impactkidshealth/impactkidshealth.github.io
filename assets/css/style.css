@@ -355,13 +355,15 @@ footer {
 /* Individual cards */
 .feature-card {
   background:
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.88), rgba(247, 251, 255, 0.82));
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.96), rgba(247, 251, 255, 0.90));
   border-radius: 18px;
   border: 1px solid rgba(10, 45, 82, 0.10);
- border-top: 3px solid rgba(6, 75, 126, 0.65);
+  border-top: 4px solid #064b7e;
   padding: 28px 24px;
   box-shadow:
-    0 10px 26px rgba(10, 45, 82, 0.11);
+    0 2px 4px rgba(10, 45, 82, 0.08),
+    0 14px 28px rgba(10, 45, 82, 0.14),
+    0 28px 60px rgba(10, 45, 82, 0.10);
   backdrop-filter: blur(6px);
   transition:
     transform 0.2s ease,
@@ -371,10 +373,14 @@ footer {
 
 /* Hover effect */
 .feature-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
+
   border-color: rgba(10, 45, 82, 0.18);
+
   box-shadow:
-    0 14px 34px rgba(10, 45, 82, 0.17);
+    0 3px 6px rgba(10, 45, 82, 0.10),
+    0 18px 34px rgba(10, 45, 82, 0.18),
+    0 34px 70px rgba(10, 45, 82, 0.13);
 }
 
 /* Card titles */

@@ -427,7 +427,10 @@ footer {
    CENTERS PAGE
    =========================== */
 
-.centers-grid {
+.container.content-page.centers-page {
+  max-width: 1400px;
+   
+   .centers-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;

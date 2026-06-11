@@ -428,7 +428,9 @@ footer {
    =========================== */
 
 .container.content-page.centers-page {
-  max-width: 1400px;
+  max-width: 1350px;
+  margin: 22px auto 40px auto;
+}
 
 .centers-intro {
   text-align: center;

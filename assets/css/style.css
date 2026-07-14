@@ -578,7 +578,7 @@ footer {
 }
 
 .node-opbg {
-  left: 65%;
+  left: 70%;
   top: 54%;
 }
 
@@ -589,7 +589,7 @@ footer {
    
 .centers-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 18px;
   margin-top: 34px;
 }
